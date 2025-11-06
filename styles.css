@@ -86,13 +86,17 @@ main div {
 }
 
 section button {
-    width: 30%;
     display: inline-block;
-    justify-content: space-around;
-    margin-left: 20px;
-    margin-right: 20px;
-
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
 }
+
+h2 {
+    text-align: center;
+}
+
 
 button:hover {
     background: #e1e4e77a;
