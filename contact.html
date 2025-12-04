@@ -11,28 +11,22 @@
     <header>
         <nav class="main-nav">
                 <ul class="nav-list">
-                    <li><a href="index.html" data-section="home">Home</a></li>
-                    <li><a href="#aboutme" data-section="aboutme">About me</a></li>
-                    <li><a href="#portoflio" data-section="portfolio">Portfolio</a></li>
+                    <li><a href="index.html" data-section="portfolio">Portfolio</a></li>
                     <li><a href="contact.html" data-section="contact">Contact</a></li>
                 </ul>
         </nav>
     </header>
     <br><br>
-    <h3>Contact info and form will go here.</h3>
+    <h3>Send me an Email directly!</h3>
 
-<div class="container">
-  <form action="action_page.php">
+    <p>
 
-    <label for="fname">Your Name:</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="subject">Message:</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
+<form action="https://formsubmit.co/owenfedchenko@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="contact-button">Send</button>
+</form>
+</p>
 
 </body>
