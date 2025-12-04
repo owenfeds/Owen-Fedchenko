@@ -10,3 +10,7 @@ document.getElementById('button2').addEventListener('click', () => {
 document.getElementById("button3").addEventListener("click", () => {
     window.location.href = "https://owenfeds.github.io/Interactive-Quiz/";
 });
+
+document.getElementById("button4").addEventListener("click", () => {
+    window.location.href = "https://jamesdelpilar.github.io/SongGenerator/";
+});
