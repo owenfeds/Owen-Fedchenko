@@ -104,8 +104,9 @@ h2 {
 }
 
 h3 {
-    text-align: center;
+    text-align:left;
     font-size: 35px;
+    padding-top: 30px;
 }
 
 hr {
@@ -129,6 +130,7 @@ button:hover {
 button.active {
     transform: scale(1.03);
 }
+
 
 form {
     width: 350px;
