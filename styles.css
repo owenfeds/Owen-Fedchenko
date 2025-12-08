@@ -40,26 +40,28 @@ header {
     padding: 5px;
     display: inline;
     margin-right: 5px;
+
 }
 
 .nav-list a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-decoration: none;
     list-style-type: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
     border: 2px;
-    background: #647991ce;
+    /*background: #647991ce;
     border-radius: 10px;
     border-style: ridge;
-    padding: 5px;
+    padding: 5px; */
 
 }
 
 .nav-list a:hover {
-    padding: 5px;
-    background: #97bfe4
+    color: rgb(192, 190, 190);
+    /* padding: 5px; 
+    /*background: #97bfe4 */
 
 }
 
@@ -104,9 +106,15 @@ h2 {
 }
 
 h3 {
-    text-align:left;
+    text-align: center;
     font-size: 35px;
     padding-top: 30px;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 20px;
 }
 
 hr {
